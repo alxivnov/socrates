@@ -12,17 +12,17 @@ docker run --name php -v ~/Documents/Socrates:/var/www/html -w /usr/src/app -p 3
 + Save
 + Load new
 + Load all
++ Remove buttons
 
 - Show lists
 - Add list: load all
 - Switch lists: load new
 
-+ Remove buttons
+- Add cards: links, images, videos
+- Add user photo
+- Rearrange header
+- Add open tweet button
+- Add alerts (logging)
+- Add Web Workers
 - Add progress bar?
 - Remove border?
-- Rearrange header
-- Add buttons dropdown
-- Add user photo
-- Add cards: links, images, videos
-- Add alerts
-- Add Web Workers

@@ -8,7 +8,7 @@ export default {
 <nav ref="navbar" class="navbar fixed-top bg-body-tertiary">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#" @click.prevent="reload">{{ list?.name || 'Socrates' }}</a>
-		<span class="navbar-text badge" :class="tweets.length ? 'text-bg-primary' : 'text-bg-danger'">
+		<span class="navbar-text badge" :class="tweets.length ? 'text-bg-primary' : 'text-bg-secondary'">
 			{{ unread }}
 		</span>
 	</div>

@@ -17,7 +17,7 @@ export default {
 	<div v-if="quote" class="border rounded p-3 mt-3">
 		<div class="card-title">
 			<h5>
-				<a class="text-light-emphasis" :href="link(tweet, 'user')" target="_blank">{{ quote.core.user_results.result.legacy.name }}</a>
+				<a class="text-light-emphasis" :href="link(quote, 'user')" target="_blank">{{ quote.core.user_results.result.legacy.name }}</a>
 				@{{ quote.core.user_results.result.legacy.screen_name }}
 			</h5>
 			<h6 class="card-subtitle mb-2 text-muted">{{ time(quote) }}</h6>
