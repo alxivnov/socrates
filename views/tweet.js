@@ -7,8 +7,8 @@ export default {
 <div class="card-body">
 	<div class="card-title">
 		<h5>
-			<a class="text-light-emphasis" :href="link(tweet, 'user')" target="_blank">{{ tweet.core.user_results.result.legacy.name }}</a>
-			@{{ tweet.core.user_results.result.legacy.screen_name }}
+			<a class="text-light-emphasis" :href="link(tweet, 'user')" target="_blank">{{ tweet.core.user_results?.result.legacy.name }}</a>
+			@{{ tweet.core.user_results?.result.legacy.screen_name }}
 		</h5>
 		<h6 class="card-subtitle mb-2 text-muted">{{ time(tweet) }}</h6>
 	</div>
@@ -17,8 +17,8 @@ export default {
 	<div v-if="quote" class="border rounded p-3 mt-3">
 		<div class="card-title">
 			<h5>
-				<a class="text-light-emphasis" :href="link(quote, 'user')" target="_blank">{{ quote.core.user_results.result.legacy.name }}</a>
-				@{{ quote.core.user_results.result.legacy.screen_name }}
+				<a class="text-light-emphasis" :href="link(quote, 'user')" target="_blank">{{ quote.core.user_results?.result.legacy.name }}</a>
+				@{{ quote.core.user_results?.result.legacy.screen_name }}
 			</h5>
 			<h6 class="card-subtitle mb-2 text-muted">{{ time(quote) }}</h6>
 		</div>
@@ -35,16 +35,18 @@ export default {
 	},
 	computed: {
 		quote() {
-			return this.tweet.quoted_status_result?.result || this.tweet.legacy.retweeted_status_result?.result;
+			return this.tweet.quoted_status_result?.result.tweet		// TweetWithVisibilityResults
+				|| this.tweet.quoted_status_result?.result				// quoted
+				|| this.tweet.legacy.retweeted_status_result?.result;	// retweeted
 		}
 	},
 	methods: {
 		link(tweet, entity) {
 			return entity == 'status'
-				? `https://twitter.com/${tweet.core.user_results.result.legacy.screen_name}/status/${tweet.rest_id}`
+				? `https://twitter.com/${tweet.core.user_results?.result.legacy.screen_name}/status/${tweet.rest_id}`
 				: entity == 'hashtag'
 					? `https://twitter.com/hashtag/${tweet}`
-					: `https://twitter.com/${typeof (tweet) == 'string' ? tweet : tweet.core.user_results.result.legacy.screen_name}`;
+					: `https://twitter.com/${typeof (tweet) == 'string' ? tweet : tweet.core.user_results?.result.legacy.screen_name}`;
 		},
 		html(tweet) {
 			let entities = tweet.legacy.entities;
