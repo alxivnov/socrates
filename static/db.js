@@ -30,28 +30,25 @@ const get = (db, name, key) => {
 	let store = tx.objectStore(name);
 	return resolveRequest(key ? store.get(key) : store.getAll());
 };
-const add = (db, name, ...objects) => {
+const chain = (db, name, func, ...objects) => {
 	let tx = db instanceof IDBTransaction ? db : db.transaction(name, 'readwrite');
 	let store = tx.objectStore(name);
-	return objects.reduce((prev, curr) => prev.then(() => resolveRequest(store.add(curr))), Promise.resolve());
-};
-const put = (db, name, ...objects) => {
-	let tx = db instanceof IDBTransaction ? db : db.transaction(name, 'readwrite');
-	let store = tx.objectStore(name);
-	return objects.reduce((prev, curr) => prev.then(() => resolveRequest(store.put(curr))), Promise.resolve());
+	return objects.reduce((prev, curr) => prev.then(() => resolveRequest(func(curr, store, tx))), Promise.resolve());
 };
 
 export default (name, version, onupgradeneeded, onblocked) => {
 	return resolveRequest(window.indexedDB.open(name, version), {
 		onsuccess: (db) => {
 			db.get = (name, keyPath) => get(db, name, keyPath);
-			db.add = (name, ...objects) => add(db, name, ...objects);
-			db.put = (name, ...objects) => put(db, name, ...objects);
+			db.add = (name, ...objects) => chain(db, name, (o, s) => s.add(o), ...objects);
+			db.put = (name, ...objects) => chain(db, name, (o, s) => s.put(o), ...objects);
+			db.delete = (name, ...objects) => chain(db, name, (o, s) => s.delete(typeof(o) == 'object' ? o[s.keyPath] : o), ...objects);
 			db.readwrite = (...storeNames) => {
 				let tx = db.transaction(storeNames, 'readwrite');
 				tx.get = (name, keyPath) => get(tx, name, keyPath);
-				tx.add = (name, ...objects) => add(tx, name, ...objects);
-				tx.put = (name, ...objects) => put(tx, name, ...objects);
+				tx.add = (name, ...objects) => chain(tx, name, (o, s) => s.add(o), ...objects);
+				tx.put = (name, ...objects) => chain(tx, name, (o, s) => s.put(o), ...objects);
+				tx.delete = (name, ...objects) => chain(tx, name, (o, s) => s.delete(typeof(o) == 'object' ? o[s.keyPath] : o), ...objects);
 				// tx.commit = (func) => {
 				// 	if (func)
 				// 		func(tx);
