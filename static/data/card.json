@@ -1,0 +1,446 @@
+{
+	"rest_id": "https://t.co/hzFK2LDKRK",
+	"legacy": {
+		"binding_values": [
+			{
+				"key": "photo_image_full_size_large",
+				"value": {
+					"image_value": {
+						"height": 367,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=800x419"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "thumbnail_image",
+				"value": {
+					"image_value": {
+						"height": 150,
+						"width": 266,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=280x150"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "description",
+				"value": {
+					"string_value": "So much for that horrific 3Y auction.",
+					"type": "STRING"
+				}
+			},
+			{
+				"key": "domain",
+				"value": {
+					"string_value": "www.zerohedge.com",
+					"type": "STRING"
+				}
+			},
+			{
+				"key": "thumbnail_image_large",
+				"value": {
+					"image_value": {
+						"height": 320,
+						"width": 569,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=800x320_1"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "summary_photo_image_small",
+				"value": {
+					"image_value": {
+						"height": 202,
+						"width": 386,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=386x202"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "thumbnail_image_original",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=orig"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "site",
+				"value": {
+					"scribe_key": "publisher_id",
+					"type": "USER",
+					"user_value": {
+						"id_str": "18856867",
+						"path": []
+					}
+				}
+			},
+			{
+				"key": "photo_image_full_size_small",
+				"value": {
+					"image_value": {
+						"height": 202,
+						"width": 386,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=386x202"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "summary_photo_image_large",
+				"value": {
+					"image_value": {
+						"height": 367,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=800x419"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "thumbnail_image_small",
+				"value": {
+					"image_value": {
+						"height": 81,
+						"width": 144,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=144x144"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "thumbnail_image_x_large",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=png&name=2048x2048_2_exp"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "photo_image_full_size_original",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=orig"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "vanity_url",
+				"value": {
+					"scribe_key": "vanity_url",
+					"string_value": "zerohedge.com",
+					"type": "STRING"
+				}
+			},
+			{
+				"key": "photo_image_full_size",
+				"value": {
+					"image_value": {
+						"height": 314,
+						"width": 600,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=600x314"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "thumbnail_image_color",
+				"value": {
+					"image_color_value": {
+						"palette": [
+							{
+								"rgb": {
+									"blue": 255,
+									"green": 255,
+									"red": 255
+								},
+								"percentage": 98.99
+							},
+							{
+								"rgb": {
+									"blue": 204,
+									"green": 177,
+									"red": 154
+								},
+								"percentage": 0.59
+							},
+							{
+								"rgb": {
+									"blue": 202,
+									"green": 203,
+									"red": 251
+								},
+								"percentage": 0.42
+							}
+						]
+					},
+					"type": "IMAGE_COLOR"
+				}
+			},
+			{
+				"key": "title",
+				"value": {
+					"string_value": "Record Demand For Blockbuster 10Y Auction Sends Yields Tumbling",
+					"type": "STRING"
+				}
+			},
+			{
+				"key": "summary_photo_image_color",
+				"value": {
+					"image_color_value": {
+						"palette": [
+							{
+								"rgb": {
+									"blue": 255,
+									"green": 255,
+									"red": 255
+								},
+								"percentage": 98.99
+							},
+							{
+								"rgb": {
+									"blue": 204,
+									"green": 177,
+									"red": 154
+								},
+								"percentage": 0.59
+							},
+							{
+								"rgb": {
+									"blue": 202,
+									"green": 203,
+									"red": 251
+								},
+								"percentage": 0.42
+							}
+						]
+					},
+					"type": "IMAGE_COLOR"
+				}
+			},
+			{
+				"key": "summary_photo_image_x_large",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=png&name=2048x2048_2_exp"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "summary_photo_image",
+				"value": {
+					"image_value": {
+						"height": 314,
+						"width": 600,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=600x314"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "photo_image_full_size_color",
+				"value": {
+					"image_color_value": {
+						"palette": [
+							{
+								"rgb": {
+									"blue": 255,
+									"green": 255,
+									"red": 255
+								},
+								"percentage": 98.99
+							},
+							{
+								"rgb": {
+									"blue": 204,
+									"green": 177,
+									"red": 154
+								},
+								"percentage": 0.59
+							},
+							{
+								"rgb": {
+									"blue": 202,
+									"green": 203,
+									"red": 251
+								},
+								"percentage": 0.42
+							}
+						]
+					},
+					"type": "IMAGE_COLOR"
+				}
+			},
+			{
+				"key": "photo_image_full_size_x_large",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=png&name=2048x2048_2_exp"
+					},
+					"type": "IMAGE"
+				}
+			},
+			{
+				"key": "card_url",
+				"value": {
+					"scribe_key": "card_url",
+					"string_value": "https://t.co/hzFK2LDKRK",
+					"type": "STRING"
+				}
+			},
+			{
+				"key": "summary_photo_image_original",
+				"value": {
+					"image_value": {
+						"height": 394,
+						"width": 700,
+						"url": "https://pbs.twimg.com/card_img/1623387986191589384/S6ChsvYR?format=jpg&name=orig"
+					},
+					"type": "IMAGE"
+				}
+			}
+		],
+		"card_platform": {
+			"platform": {
+				"audience": {
+					"name": "production"
+				},
+				"device": {
+					"name": "Swift",
+					"version": "12"
+				}
+			}
+		},
+		"name": "summary_large_image",
+		"url": "https://t.co/hzFK2LDKRK",
+		"user_refs_results": [
+			{
+				"result": {
+					"__typename": "User",
+					"id": "VXNlcjoxODg1Njg2Nw==",
+					"rest_id": "18856867",
+					"affiliates_highlighted_label": {},
+					"has_nft_avatar": false,
+					"is_blue_verified": false,
+					"legacy": {
+						"created_at": "Sun Jan 11 04:08:58 +0000 2009",
+						"default_profile": true,
+						"default_profile_image": false,
+						"description": "",
+						"entities": {
+							"description": {
+								"urls": []
+							},
+							"url": {
+								"urls": [
+									{
+										"display_url": "zerohedge.com",
+										"expanded_url": "https://zerohedge.com",
+										"url": "https://t.co/XKPaugBRRi",
+										"indices": [
+											0,
+											23
+										]
+									}
+								]
+							}
+						},
+						"fast_followers_count": 0,
+						"favourites_count": 19,
+						"followers_count": 1575336,
+						"friends_count": 893,
+						"has_custom_timelines": true,
+						"is_translator": false,
+						"listed_count": 26824,
+						"location": "",
+						"media_count": 19146,
+						"name": "zerohedge",
+						"normal_followers_count": 1575336,
+						"pinned_tweet_ids_str": [],
+						"possibly_sensitive": false,
+						"profile_image_extensions": {
+							"mediaColor": {
+								"r": {
+									"ok": {
+										"palette": [
+											{
+												"percentage": 62.69,
+												"rgb": {
+													"blue": 31,
+													"green": 31,
+													"red": 35
+												}
+											},
+											{
+												"percentage": 26.63,
+												"rgb": {
+													"blue": 54,
+													"green": 81,
+													"red": 154
+												}
+											},
+											{
+												"percentage": 3.32,
+												"rgb": {
+													"blue": 47,
+													"green": 53,
+													"red": 107
+												}
+											},
+											{
+												"percentage": 2.64,
+												"rgb": {
+													"blue": 65,
+													"green": 122,
+													"red": 206
+												}
+											},
+											{
+												"percentage": 0.93,
+												"rgb": {
+													"blue": 25,
+													"green": 26,
+													"red": 22
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						"profile_image_url_https": "https://pbs.twimg.com/profile_images/72647502/tyler_normal.jpg",
+						"profile_interstitial_type": "",
+						"protected": false,
+						"screen_name": "zerohedge",
+						"statuses_count": 495927,
+						"translator_type": "regular",
+						"url": "https://t.co/XKPaugBRRi",
+						"verified": false,
+						"withheld_in_countries": []
+					},
+					"super_follow_eligible": false,
+					"super_followed_by": false,
+					"super_following": false
+				}
+			}
+		]
+	}
+}
