@@ -20,7 +20,7 @@ const resolveRequest = (req, opt) => {
 			if (opt && typeof (opt) == 'object')
 				Object.keys(Object.getPrototypeOf(req))
 					.filter(key => typeof (opt[key]) == 'function')
-					.forEach(key => req[key] = (event) => opt[key](event.target.result));
+					.forEach(key => req[key] = (event) => opt[key](event.target.readyState == 'done' ? event.target.result : undefined));
 		})
 		: Promise.resolve();
 };
