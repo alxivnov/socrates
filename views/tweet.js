@@ -1,71 +1,259 @@
 import moment from 'https://cdn.jsdelivr.net/npm/moment@2.29.4/+esm';
 
+import store from '../static/store.js';
+
 const a = (href, content) => `<a href="${href}" target="_blank">${content}</a>`;
 
 export default {
 	template: /* html */`
-<div class="card-body">
-	<div class="card-title">
-		<h5>
-			<a class="text-light-emphasis" :href="link(tweet, 'user')" target="_blank">{{ tweet.core.user_results?.result.legacy.name }}</a>
-			@{{ tweet.core.user_results?.result.legacy.screen_name }}
-		</h5>
-		<h6 class="card-subtitle mb-2 text-muted">{{ time(tweet) }}</h6>
-	</div>
-	<p v-if="!tweet.legacy.retweeted_status_result" class="card-text" v-html="html(tweet)"></p>
-
-	<div v-if="quote" class="border rounded p-3 mt-3">
-		<div class="card-title">
-			<h5>
-				<a class="text-light-emphasis" :href="link(quote, 'user')" target="_blank">{{ quote.core.user_results?.result.legacy.name }}</a>
-				@{{ quote.core.user_results?.result.legacy.screen_name }}
-			</h5>
-			<h6 class="card-subtitle mb-2 text-muted">{{ time(quote) }}</h6>
+<div class="card-header">
+	<span class="hstack">
+		<img class="rounded-circle me-2" :src="tweet.core.user_results?.result.legacy.profile_image_url_https" :alt="tweet.core.user_results?.result.legacy.name">
+		<div class="vstack w-100">
+			<h6 class="mt-1 hstack">
+				<a :class="muted(tweet.rest_id) ? 'text-body' : 'text-light'" class="me-1" :href="link(tweet, 'user')" target="_blank">{{ tweet.core.user_results?.result.legacy.name }}</a>
+				<!--<small class="text-muted">
+					@{{ tweet.core.user_results?.result.legacy.screen_name }}
+				</small>-->
+				<small class="ms-auto text-muted" @click="json">
+					{{ number(tweet.core.user_results?.result.legacy.friends_count) }} / {{ number(tweet.core.user_results?.result.legacy.followers_count) }}
+				</small>
+			</h6>
+			<p class="card-subtitle"><small class="text-muted">{{ time(tweet) }}</small></p>
 		</div>
-		<p class="card-text" v-html="html(quote)"></p>
-		<!--<a v-if="!tweet.legacy.retweeted_status_result" class="card-link" :href="link(quote)" target="_blank">Open</a>-->
-	</div>
-
+	</span>
+</div>
+<div v-if="show(tweet) && !tweet.legacy.retweeted_status_result" class="card-body">
+	<p class="card-text" :class="{ 'text-muted': muted(tweet.rest_id) }" v-html="html(tweet)"></p>
 	<!--<a class="card-link" :href="link(tweet, 'status')" target="_blank">Open</a>
 	<a class="card-link" href="#">Bookmark</a>-->
 </div>
+
+<ul v-if="quote" class="list-group list-group-flush">
+	<li class="list-group-item">
+		<span class="hstack">
+			<i class="bi bi-repeat me-2" v-if="tweet.legacy.retweeted_status_result"></i>
+			<i class="bi bi-quote me-2" v-if="tweet.quoted_status_result"></i>
+			<img class="rounded-circle me-2" :src="quote.core.user_results?.result.legacy.profile_image_url_https" :alt="quote.core.user_results?.result.legacy.name">
+			<div class="vstack">
+				<h6 class="mt-1 hstack">
+					<a :class="muted(quote.rest_id) ? 'text-body' : 'text-light'" class="me-1" :href="link(quote, 'user')" target="_blank">{{ quote.core.user_results?.result.legacy.name }}</a>
+					<!--<small class="text-muted">
+						@{{ quote.core.user_results?.result.legacy.screen_name }}
+					</small>-->
+					<small class="ms-auto text-muted">
+						{{ number(quote.core.user_results?.result.legacy.friends_count) }} / {{ number(quote.core.user_results?.result.legacy.followers_count) }}
+					</small>
+				</h6>
+				<p class="card-subtitle"><small class="text-muted">{{ time(quote) }}</small></p>
+			</div>
+		</span>
+	</li>
+</ul>
+<div v-if="quote && show(quote)" class="card-body">
+	<p class="card-text" :class="{ 'text-muted': muted(quote.rest_id) }" v-html="html(quote)"></p>
+	<!--<a v-if="!tweet.legacy.retweeted_status_result" class="card-link" :href="link(quote)" target="_blank">Open</a>-->
+</div>
+
+<div :id="'carousel-' + tweet.rest_id" class="carousel slide">
+	<div v-if="media && media.length > 1" class="carousel-indicators">
+		<button v-for="(photo, i) in media" :key="i" type="button" :data-bs-target="'#carousel-' + tweet.rest_id" :data-bs-slide-to="i" :aria-label="'Slide ' + (i + 1)" :class="{ active: !i }" :aria-current="!i"></button>
+	</div>
+	<div class="carousel-inner">
+		<div v-for="(photo, i) in media" :key="i" class="carousel-item" :class="{ active: !i }">
+			<!--<img src="..." class="d-block w-100" alt="...">-->
+			<video v-if="video(photo)" class="card-img-bottom rounded-0" :poster="photo.media_url_https" controls :height="maxHeight()" style="object-fit: contain;">
+				<source v-for="(s, j) in video(photo)" :key="j" :src="s.url" :type="s.content_type">
+			</video>
+			<img v-else-if="photo" class="card-img-bottom rounded-0" :src="photo.media_url_https" :alt="photo.type" :height="maxHeight()" style="object-fit: contain;">
+		</div>
+	</div>
+	<button v-if="media && media.length > 1" class="carousel-control-prev" type="button" :data-bs-target="'#carousel-' + tweet.rest_id" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button v-if="media && media.length > 1" class="carousel-control-next" type="button" :data-bs-target="'#carousel-' + tweet.rest_id" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+</div>
+
+<div v-if="poll.length" class="card-body pt-0">
+	<div v-for="(choice, i) in poll" :key="i" class="progress" :class="{ 'mt-2': i }" role="progressbar" :aria-label="choice.label" :aria-valuenow="choice.count" aria-valuemin="0" :aria-valuemax="pollTotal">
+		<div class="progress-bar" :style="{ width: Math.round(choice.count / pollTotal * 100) + '%' }">
+			<span class="text-start ms-1">
+				{{ choice.label }}
+			</span>
+		</div>
+		<span class="-text-end ms-auto me-1">
+			{{ choice.count }}
+		</span>
+	</div>
+</div>
+<div v-if="card && !poll.length && (card.player_url || card.thumbnail_image_large?.url || card.player_image_large?.url)" :href="card.card_url" target="_blank">
+	<iframe v-if="card.player_url" class="card-img-bottom rounded-0" :src="card.player_url" _width="560" :height="height(card.player_image_large)" :title="card.title" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<img v-else :src="card.thumbnail_image_large?.url || card.player_image_large?.url" class="card-img-bottom rounded-0" :alt="card.type" :height="height(card.thumbnail_image_large || card.player_image_large)">
+</div>
+<div v-if="card && !poll.length" class="card-body">
+	<h6 class="card-title">
+		<a :class="muted(card.rest_id) ? 'text-body' : 'text-light'" :href="card.card_url" target="_blank">{{ card.title }}</a>
+	</h6>
+	<p class="card-text mb-1" :class="{ 'text-muted': muted(card.rest_id) }">{{ card.description }}</p>
+	<p class="card-text"><small class="text-muted">{{ card.vanity_url }}</small></p>
+</div>
+
+<div class="card-footer">
+	<a class="card-subtitle hstack text-decoration-none text-muted" :href="link(tweet)" target="_blank">
+		<span :class="{ 'text-body fw-bold': tweet.legacy.retweeted_status_result }">
+			<i class="bi bi-repeat me-2"></i>
+			<small>{{ number(tweet.legacy.retweet_count) }}</small>
+		</span>
+		<span class="ms-auto" :class="{ 'text-body fw-bold': tweet.legacy.in_reply_to_status_id_str }">
+			<i class="bi bi-chat me-2"></i>
+			<small>{{ number(tweet.legacy.reply_count) }}</small>
+		</span>
+		<span class="ms-auto" :class="{ 'text-body fw-bold': tweet.quoted_status_result }">
+			<i class="bi bi-quote me-2"></i>
+			<small>{{ number(tweet.legacy.quote_count) }}</small>
+		</span>
+		<span class="ms-auto">
+			<i class="bi bi-heart me-2"></i>
+			<small>{{ number(tweet.legacy.favorite_count) }}</small>
+		</span>
+		<span class="ms-auto">
+			<i class="bi bi-bar-chart me-2"></i>
+			<small>{{ number(tweet.views.count || 0) }}</small>
+		</span>
+	</a>
+</div>
 	`,
 	props: {
-		tweet: Object
+		tweet: Object,
+		index: Number
 	},
 	computed: {
 		quote() {
 			return this.tweet.quoted_status_result?.result.tweet		// TweetWithVisibilityResults
 				|| this.tweet.quoted_status_result?.result				// quoted
 				|| this.tweet.legacy.retweeted_status_result?.result;	// retweeted
+		},
+
+		card() {
+			let card = this.tweet.card || this.quote?.card;
+			return card?.legacy.binding_values.reduce((prev, curr) => ({ ...prev, [curr.key]: curr.value[`${curr.value.type.toLowerCase()}_value`] }), { rest_id: card?.rest_id });
+		},
+		poll() {
+			let card = this.card || {};
+			return Object.keys(card)
+				.filter(key => key.startsWith('choice') && key.endsWith('_label'))
+				.sort()
+				.map((key, i) => ({ label: card[`choice${i + 1}_label`], count: card[`choice${i + 1}_count`] }));
+		},
+		pollTotal() {
+			return this.poll?.reduce((prev, curr) => prev + parseInt(curr.count), 0);
+		},
+		media() {
+			return this.tweet.legacy.extended_entities?.media || this.quote?.legacy.extended_entities?.media;
 		}
 	},
 	methods: {
+		muted(rest_id) {
+			return store.ids.indexOf(rest_id, (this.index + 1) * 4) > -1;
+		},
+		video(media) {
+			return media.video_info?.variants;
+		},
 		link(tweet, entity) {
-			return entity == 'status'
-				? `https://twitter.com/${tweet.core.user_results?.result.legacy.screen_name}/status/${tweet.rest_id}`
-				: entity == 'hashtag'
-					? `https://twitter.com/hashtag/${tweet}`
-					: `https://twitter.com/${typeof (tweet) == 'string' ? tweet : tweet.core.user_results?.result.legacy.screen_name}`;
+			if (!tweet)
+				return;
+
+			return entity == 'hashtag' || entity == '#'
+				? `https://twitter.com/hashtag/${tweet}`
+				: entity == 'user' || entity == '@'
+					? `https://twitter.com/${typeof (tweet) == 'string' ? tweet : tweet.core.user_results?.result.legacy.screen_name}`
+					: `https://twitter.com/${tweet.core.user_results?.result.legacy.screen_name}/status/${tweet.rest_id}`;
 		},
 		html(tweet) {
+			// if (!tweet)
+			// 	return;
+
 			let entities = tweet.legacy.entities;
 			var html = this.text(tweet);
-			html = entities.media?.reduce((prev, curr) => prev.replace(curr.url, a(curr.expanded_url, curr.display_url)), html) || html;
-			html = entities.urls.reduce((prev, curr) => prev.replace(curr.url, a(curr.expanded_url, curr.display_url)), html);
-			html = entities.user_mentions.reduce((prev, curr) => prev.replace(`@${curr.screen_name}`, a(this.link(curr.screen_name, 'user'), `@${curr.screen_name}`)), html);
-			html = entities.hashtags.reduce((prev, curr) => prev.replace(`#${curr.text}`, a(this.link(curr.text, 'hashtag'), `#${curr.text}`)), html);
-			return html;
+			html = [...entities.user_mentions, ...entities.hashtags]
+				.sort((a, b) => b.indices[0] - a.indices[0])
+//				.reverse()
+				.reduce((prev, curr) => {
+					let user = curr.screen_name ? '@' : '#';
+					let text = curr.screen_name || curr.text;
+					let href = this.link(text, user);
+					let link = a(href, user + text);
+					let index = prev.indexOf(user, curr.indices[0]);
+					return prev.slice(0, index) + link + prev.slice(curr.indices[1] + index - curr.indices[0]);
+				}, html);
+			html = entities.media?.reduce((prev, curr) => {
+				let link = a(curr.expanded_url, curr.display_url);
+				return prev.replace(curr.url, link);
+			}, html) || html;
+			html = entities.urls.reduce((prev, curr) => {
+				let link = a(curr.expanded_url, curr.display_url);
+				return prev.replace(curr.url, link);
+			}, html);
+			return html.replace(/\n/g, '<p class="m-0">');
+//			html = entities.user_mentions.reduce((prev, curr) => {
+//				let link = a(this.link(curr.screen_name, 'user'), `@${curr.screen_name}`);
+//				return prev.replace(`@${curr.screen_name}`, link);
+//			}, html);
+//			html = entities.hashtags.reduce((prev, curr) => {
+//				let link = a(this.link(curr.text, 'hashtag'), `#${curr.text}`);
+//				return prev.replace(`#${curr.text}`, link);
+//			}, html);
+//			return html;
 //			let el = new DOMParser().parseFromString(tweet.legacy.full_text, "text/html").documentElement;
 //			twemoji.parse(el);
 //			return el.textContent;
 		},
 		text(tweet) {
-			return tweet.legacy.full_text.replace(/&amp;/g, '&');
+			// if (!tweet)
+			// 	return;
+
+			return tweet.legacy.full_text;//.replace(/&amp;/g, '&');
 		},
 		time(tweet) {
+			// if (!tweet)
+			// 	return;
+
 			let date = new Date(tweet.legacy.created_at);
 			return moment(date).format('DD.MM.YYYY HH:mm');
+		},
+		height(size) {
+			return size && size.height && size.width
+				? size.height / size.width * (Math.min(window.innerWidth, 598) - 2 * 8)
+				: 0;
+		},
+		maxHeight() {
+			return this.media ? Math.max(...this.media.map(photo => photo.original_info).map(this.height)) : 0;
+		},
+		number(number) {
+			return number > 1000000
+				? Number(number / 1000000).toFixed(1) + 'M'
+				: number > 1000
+					? Number(number / 1000).toFixed(1) + 'K'
+					: number;
+		},
+		json() {
+			navigator.clipboard.writeText(JSON.stringify(this.tweet, undefined, '	'));
+		},
+		show(tweet) {
+			var text = tweet.legacy.full_text
+				.replace(/&amp;/g, '&');
+			if (this.card) {
+				text = text
+					.replace(this.card.title, '')
+					.replace(this.card.card_url, '')
+					.trim();
+				return !!text.length;
+			}
+			return true;
 		},
 	}
 }
