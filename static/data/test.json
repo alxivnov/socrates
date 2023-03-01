@@ -19,6 +19,2310 @@
                       "tweet_results": {
                         "result": {
                           "__typename": "Tweet",
+                          "rest_id": "1630868427882594304",
+                          "core": {
+                            "user_results": {
+                              "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoyNDMzMTg5OTU=",
+                                "rest_id": "243318995",
+                                "affiliates_highlighted_label": {},
+                                "has_nft_avatar": false,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                  "created_at": "Wed Jan 26 19:56:43 +0000 2011",
+                                  "default_profile": false,
+                                  "default_profile_image": false,
+                                  "description": "Citizen journalist.",
+                                  "entities": {
+                                    "description": {
+                                      "urls": []
+                                    }
+                                  },
+                                  "fast_followers_count": 0,
+                                  "favourites_count": 1039,
+                                  "followers_count": 268079,
+                                  "friends_count": 17,
+                                  "has_custom_timelines": true,
+                                  "is_translator": false,
+                                  "listed_count": 3715,
+                                  "location": "Zurich, Schweiz",
+                                  "media_count": 37766,
+                                  "name": "Russian Market",
+                                  "normal_followers_count": 268079,
+                                  "pinned_tweet_ids_str": [],
+                                  "possibly_sensitive": false,
+                                  "profile_banner_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 65.23,
+                                              "rgb": {
+                                                "blue": 233,
+                                                "green": 249,
+                                                "red": 248
+                                              }
+                                            },
+                                            {
+                                              "percentage": 16.64,
+                                              "rgb": {
+                                                "blue": 26,
+                                                "green": 28,
+                                                "red": 28
+                                              }
+                                            },
+                                            {
+                                              "percentage": 8.34,
+                                              "rgb": {
+                                                "blue": 64,
+                                                "green": 49,
+                                                "red": 176
+                                              }
+                                            },
+                                            {
+                                              "percentage": 4.51,
+                                              "rgb": {
+                                                "blue": 148,
+                                                "green": 149,
+                                                "red": 206
+                                              }
+                                            },
+                                            {
+                                              "percentage": 0.36,
+                                              "rgb": {
+                                                "blue": 2,
+                                                "green": 187,
+                                                "red": 222
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_banner_url": "https://pbs.twimg.com/profile_banners/243318995/1672651812",
+                                  "profile_image_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 38.68,
+                                              "rgb": {
+                                                "blue": 0,
+                                                "green": 0,
+                                                "red": 0
+                                              }
+                                            },
+                                            {
+                                              "percentage": 34.01,
+                                              "rgb": {
+                                                "blue": 200,
+                                                "green": 232,
+                                                "red": 250
+                                              }
+                                            },
+                                            {
+                                              "percentage": 7.59,
+                                              "rgb": {
+                                                "blue": 1,
+                                                "green": 0,
+                                                "red": 112
+                                              }
+                                            },
+                                            {
+                                              "percentage": 7.2,
+                                              "rgb": {
+                                                "blue": 92,
+                                                "green": 116,
+                                                "red": 132
+                                              }
+                                            },
+                                            {
+                                              "percentage": 2.07,
+                                              "rgb": {
+                                                "blue": 1,
+                                                "green": 0,
+                                                "red": 61
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1609844491652894720/D25R2I9D_normal.jpg",
+                                  "profile_interstitial_type": "",
+                                  "protected": false,
+                                  "screen_name": "runews",
+                                  "statuses_count": 138918,
+                                  "translator_type": "regular",
+                                  "verified": false,
+                                  "withheld_in_countries": []
+                                },
+                                "professional": {
+                                  "rest_id": "1535566116109668352",
+                                  "professional_type": "Business",
+                                  "category": []
+                                },
+                                "super_follow_eligible": false,
+                                "super_followed_by": false,
+                                "super_following": false
+                              }
+                            }
+                          },
+                          "unmention_data": {},
+                          "edit_control": {
+                            "edit_tweet_ids": ["1630868427882594304"],
+                            "editable_until_msecs": "1677666107000",
+                            "is_edit_eligible": true,
+                            "edits_remaining": "5"
+                          },
+                          "views": {
+                            "count": "10463",
+                            "state": "EnabledWithCount"
+                          },
+                          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                          "quoted_status_result": {
+                            "result": {
+                              "__typename": "Tweet",
+                              "rest_id": "1630276764462112774",
+                              "core": {
+                                "user_results": {
+                                  "result": {
+                                    "__typename": "User",
+                                    "id": "VXNlcjoyNDMzMTg5OTU=",
+                                    "rest_id": "243318995",
+                                    "affiliates_highlighted_label": {},
+                                    "has_nft_avatar": false,
+                                    "is_blue_verified": true,
+                                    "legacy": {
+                                      "created_at": "Wed Jan 26 19:56:43 +0000 2011",
+                                      "default_profile": false,
+                                      "default_profile_image": false,
+                                      "description": "Citizen journalist.",
+                                      "entities": {
+                                        "description": {
+                                          "urls": []
+                                        }
+                                      },
+                                      "fast_followers_count": 0,
+                                      "favourites_count": 1039,
+                                      "followers_count": 268079,
+                                      "friends_count": 17,
+                                      "has_custom_timelines": true,
+                                      "is_translator": false,
+                                      "listed_count": 3715,
+                                      "location": "Zurich, Schweiz",
+                                      "media_count": 37766,
+                                      "name": "Russian Market",
+                                      "normal_followers_count": 268079,
+                                      "pinned_tweet_ids_str": [],
+                                      "possibly_sensitive": false,
+                                      "profile_banner_extensions": {
+                                        "mediaColor": {
+                                          "r": {
+                                            "ok": {
+                                              "palette": [
+                                                {
+                                                  "percentage": 65.23,
+                                                  "rgb": {
+                                                    "blue": 233,
+                                                    "green": 249,
+                                                    "red": 248
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 16.64,
+                                                  "rgb": {
+                                                    "blue": 26,
+                                                    "green": 28,
+                                                    "red": 28
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 8.34,
+                                                  "rgb": {
+                                                    "blue": 64,
+                                                    "green": 49,
+                                                    "red": 176
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 4.51,
+                                                  "rgb": {
+                                                    "blue": 148,
+                                                    "green": 149,
+                                                    "red": 206
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 0.36,
+                                                  "rgb": {
+                                                    "blue": 2,
+                                                    "green": 187,
+                                                    "red": 222
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/243318995/1672651812",
+                                      "profile_image_extensions": {
+                                        "mediaColor": {
+                                          "r": {
+                                            "ok": {
+                                              "palette": [
+                                                {
+                                                  "percentage": 38.68,
+                                                  "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 34.01,
+                                                  "rgb": {
+                                                    "blue": 200,
+                                                    "green": 232,
+                                                    "red": 250
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 7.59,
+                                                  "rgb": {
+                                                    "blue": 1,
+                                                    "green": 0,
+                                                    "red": 112
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 7.2,
+                                                  "rgb": {
+                                                    "blue": 92,
+                                                    "green": 116,
+                                                    "red": 132
+                                                  }
+                                                },
+                                                {
+                                                  "percentage": 2.07,
+                                                  "rgb": {
+                                                    "blue": 1,
+                                                    "green": 0,
+                                                    "red": 61
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1609844491652894720/D25R2I9D_normal.jpg",
+                                      "profile_interstitial_type": "",
+                                      "protected": false,
+                                      "screen_name": "runews",
+                                      "statuses_count": 138918,
+                                      "translator_type": "regular",
+                                      "verified": false,
+                                      "withheld_in_countries": []
+                                    },
+                                    "professional": {
+                                      "rest_id": "1535566116109668352",
+                                      "professional_type": "Business",
+                                      "category": []
+                                    },
+                                    "super_follow_eligible": false,
+                                    "super_followed_by": false,
+                                    "super_following": false
+                                  }
+                                }
+                              },
+                              "unmention_data": {},
+                              "edit_control": {
+                                "edit_tweet_ids": ["1630276764462112774"],
+                                "editable_until_msecs": "1677525044000",
+                                "is_edit_eligible": true,
+                                "edits_remaining": "5"
+                              },
+                              "views": {
+                                "count": "45704",
+                                "state": "EnabledWithCount"
+                              },
+                              "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                              "legacy": {
+                                "created_at": "Mon Feb 27 18:40:44 +0000 2023",
+                                "conversation_id_str": "1630276764462112774",
+                                "display_text_range": [0, 277],
+                                "entities": {
+                                  "media": [
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630272331854622720",
+                                      "indices": [278, 301],
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_kDFtXsAAtoiO.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 479,
+                                              "y": 405,
+                                              "h": 127,
+                                              "w": 127
+                                            },
+                                            {
+                                              "x": 817,
+                                              "y": 421,
+                                              "h": 123,
+                                              "w": 123
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 280,
+                                              "y": 237,
+                                              "h": 74,
+                                              "w": 74
+                                            },
+                                            {
+                                              "x": 478,
+                                              "y": 246,
+                                              "h": 72,
+                                              "w": 72
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 159,
+                                              "y": 134,
+                                              "h": 42,
+                                              "w": 42
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 139,
+                                              "h": 40,
+                                              "w": 40
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 568,
+                                              "y": 480,
+                                              "h": 151,
+                                              "w": 151
+                                            },
+                                            {
+                                              "x": 968,
+                                              "y": 499,
+                                              "h": 146,
+                                              "w": 146
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 1057,
+                                          "w": 2048,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 619,
+                                          "w": 1200,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 351,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 1252,
+                                        "width": 2426,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 2236,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1252,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1098,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 626,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 2426,
+                                            "h": 1252
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630273548626325508",
+                                      "indices": [278, 301],
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_lJ6iWcAQkfW2.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 537,
+                                              "y": 988,
+                                              "h": 103,
+                                              "w": 103
+                                            },
+                                            {
+                                              "x": 407,
+                                              "y": 973,
+                                              "h": 135,
+                                              "w": 135
+                                            },
+                                            {
+                                              "x": 731,
+                                              "y": 1080,
+                                              "h": 179,
+                                              "w": 179
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 314,
+                                              "y": 578,
+                                              "h": 60,
+                                              "w": 60
+                                            },
+                                            {
+                                              "x": 238,
+                                              "y": 570,
+                                              "h": 79,
+                                              "w": 79
+                                            },
+                                            {
+                                              "x": 428,
+                                              "y": 632,
+                                              "h": 105,
+                                              "w": 105
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 178,
+                                              "y": 327,
+                                              "h": 34,
+                                              "w": 34
+                                            },
+                                            {
+                                              "x": 135,
+                                              "y": 322,
+                                              "h": 45,
+                                              "w": 45
+                                            },
+                                            {
+                                              "x": 242,
+                                              "y": 358,
+                                              "h": 59,
+                                              "w": 59
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 625,
+                                              "y": 1149,
+                                              "h": 120,
+                                              "w": 120
+                                            },
+                                            {
+                                              "x": 474,
+                                              "y": 1132,
+                                              "h": 158,
+                                              "w": 158
+                                            },
+                                            {
+                                              "x": 851,
+                                              "y": 1256,
+                                              "h": 209,
+                                              "w": 209
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 2048,
+                                          "w": 1197,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 1200,
+                                          "w": 701,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 680,
+                                          "w": 397,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 2382,
+                                        "width": 1392,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 780
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 1392
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 1587
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1191,
+                                            "h": 2382
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 2382
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630275515335450624",
+                                      "indices": [278, 301],
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_m8ZGWIAANI-I.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 225,
+                                              "y": 273,
+                                              "h": 23,
+                                              "w": 23
+                                            },
+                                            {
+                                              "x": 179,
+                                              "y": 291,
+                                              "h": 33,
+                                              "w": 33
+                                            },
+                                            {
+                                              "x": 264,
+                                              "y": 155,
+                                              "h": 72,
+                                              "w": 72
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 1001,
+                                          "w": 1024,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 1001,
+                                          "w": 1024,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 665,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 1001,
+                                        "width": 1024,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 200,
+                                            "w": 1024,
+                                            "h": 573
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1001,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 878,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 133,
+                                            "y": 0,
+                                            "w": 501,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1024,
+                                            "h": 1001
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630276130254077955",
+                                      "indices": [278, 301],
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_ngL2XwAMwJwI.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 266,
+                                              "y": 96,
+                                              "h": 58,
+                                              "w": 58
+                                            },
+                                            {
+                                              "x": 371,
+                                              "y": 36,
+                                              "h": 66,
+                                              "w": 66
+                                            },
+                                            {
+                                              "x": 507,
+                                              "y": 48,
+                                              "h": 60,
+                                              "w": 60
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 398,
+                                          "w": 708,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 398,
+                                          "w": 708,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 382,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 398,
+                                        "width": 708,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 708,
+                                            "h": 396
+                                          },
+                                          {
+                                            "x": 310,
+                                            "y": 0,
+                                            "w": 398,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 359,
+                                            "y": 0,
+                                            "w": 349,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 484,
+                                            "y": 0,
+                                            "w": 199,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 708,
+                                            "h": 398
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ],
+                                  "user_mentions": [],
+                                  "urls": [],
+                                  "hashtags": [],
+                                  "symbols": []
+                                },
+                                "extended_entities": {
+                                  "media": [
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630272331854622720",
+                                      "indices": [278, 301],
+                                      "media_key": "3_1630272331854622720",
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_kDFtXsAAtoiO.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "ext_media_color": {
+                                        "palette": [
+                                          {
+                                            "percentage": 59.13,
+                                            "rgb": {
+                                              "blue": 242,
+                                              "green": 234,
+                                              "red": 232
+                                            }
+                                          },
+                                          {
+                                            "percentage": 8.31,
+                                            "rgb": {
+                                              "blue": 157,
+                                              "green": 178,
+                                              "red": 196
+                                            }
+                                          },
+                                          {
+                                            "percentage": 6.74,
+                                            "rgb": {
+                                              "blue": 69,
+                                              "green": 63,
+                                              "red": 62
+                                            }
+                                          },
+                                          {
+                                            "percentage": 4.94,
+                                            "rgb": {
+                                              "blue": 134,
+                                              "green": 61,
+                                              "red": 41
+                                            }
+                                          },
+                                          {
+                                            "percentage": 3.37,
+                                            "rgb": {
+                                              "blue": 38,
+                                              "green": 56,
+                                              "red": 93
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "ext_media_availability": {
+                                        "status": "Available"
+                                      },
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 479,
+                                              "y": 405,
+                                              "h": 127,
+                                              "w": 127
+                                            },
+                                            {
+                                              "x": 817,
+                                              "y": 421,
+                                              "h": 123,
+                                              "w": 123
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 280,
+                                              "y": 237,
+                                              "h": 74,
+                                              "w": 74
+                                            },
+                                            {
+                                              "x": 478,
+                                              "y": 246,
+                                              "h": 72,
+                                              "w": 72
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 159,
+                                              "y": 134,
+                                              "h": 42,
+                                              "w": 42
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 139,
+                                              "h": 40,
+                                              "w": 40
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 568,
+                                              "y": 480,
+                                              "h": 151,
+                                              "w": 151
+                                            },
+                                            {
+                                              "x": 968,
+                                              "y": 499,
+                                              "h": 146,
+                                              "w": 146
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 1057,
+                                          "w": 2048,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 619,
+                                          "w": 1200,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 351,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 1252,
+                                        "width": 2426,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 2236,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1252,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1098,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 626,
+                                            "h": 1252
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 2426,
+                                            "h": 1252
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630273548626325508",
+                                      "indices": [278, 301],
+                                      "media_key": "3_1630273548626325508",
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_lJ6iWcAQkfW2.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "ext_media_color": {
+                                        "palette": [
+                                          {
+                                            "percentage": 65.45,
+                                            "rgb": {
+                                              "blue": 252,
+                                              "green": 252,
+                                              "red": 252
+                                            }
+                                          },
+                                          {
+                                            "percentage": 11.4,
+                                            "rgb": {
+                                              "blue": 32,
+                                              "green": 38,
+                                              "red": 45
+                                            }
+                                          },
+                                          {
+                                            "percentage": 4.45,
+                                            "rgb": {
+                                              "blue": 107,
+                                              "green": 148,
+                                              "red": 195
+                                            }
+                                          },
+                                          {
+                                            "percentage": 2.9,
+                                            "rgb": {
+                                              "blue": 49,
+                                              "green": 89,
+                                              "red": 197
+                                            }
+                                          },
+                                          {
+                                            "percentage": 2.37,
+                                            "rgb": {
+                                              "blue": 218,
+                                              "green": 192,
+                                              "red": 171
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "ext_media_availability": {
+                                        "status": "Available"
+                                      },
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 537,
+                                              "y": 988,
+                                              "h": 103,
+                                              "w": 103
+                                            },
+                                            {
+                                              "x": 407,
+                                              "y": 973,
+                                              "h": 135,
+                                              "w": 135
+                                            },
+                                            {
+                                              "x": 731,
+                                              "y": 1080,
+                                              "h": 179,
+                                              "w": 179
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 314,
+                                              "y": 578,
+                                              "h": 60,
+                                              "w": 60
+                                            },
+                                            {
+                                              "x": 238,
+                                              "y": 570,
+                                              "h": 79,
+                                              "w": 79
+                                            },
+                                            {
+                                              "x": 428,
+                                              "y": 632,
+                                              "h": 105,
+                                              "w": 105
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 178,
+                                              "y": 327,
+                                              "h": 34,
+                                              "w": 34
+                                            },
+                                            {
+                                              "x": 135,
+                                              "y": 322,
+                                              "h": 45,
+                                              "w": 45
+                                            },
+                                            {
+                                              "x": 242,
+                                              "y": 358,
+                                              "h": 59,
+                                              "w": 59
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 625,
+                                              "y": 1149,
+                                              "h": 120,
+                                              "w": 120
+                                            },
+                                            {
+                                              "x": 474,
+                                              "y": 1132,
+                                              "h": 158,
+                                              "w": 158
+                                            },
+                                            {
+                                              "x": 851,
+                                              "y": 1256,
+                                              "h": 209,
+                                              "w": 209
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 2048,
+                                          "w": 1197,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 1200,
+                                          "w": 701,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 680,
+                                          "w": 397,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 2382,
+                                        "width": 1392,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 780
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 1392
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 1587
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1191,
+                                            "h": 2382
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1392,
+                                            "h": 2382
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630275515335450624",
+                                      "indices": [278, 301],
+                                      "media_key": "3_1630275515335450624",
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_m8ZGWIAANI-I.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "ext_media_color": {
+                                        "palette": [
+                                          {
+                                            "percentage": 65.6,
+                                            "rgb": {
+                                              "blue": 15,
+                                              "green": 16,
+                                              "red": 14
+                                            }
+                                          },
+                                          {
+                                            "percentage": 14,
+                                            "rgb": {
+                                              "blue": 97,
+                                              "green": 114,
+                                              "red": 142
+                                            }
+                                          },
+                                          {
+                                            "percentage": 10.77,
+                                            "rgb": {
+                                              "blue": 213,
+                                              "green": 210,
+                                              "red": 206
+                                            }
+                                          },
+                                          {
+                                            "percentage": 3.08,
+                                            "rgb": {
+                                              "blue": 56,
+                                              "green": 38,
+                                              "red": 34
+                                            }
+                                          },
+                                          {
+                                            "percentage": 0.98,
+                                            "rgb": {
+                                              "blue": 215,
+                                              "green": 174,
+                                              "red": 155
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "ext_media_availability": {
+                                        "status": "Available"
+                                      },
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 225,
+                                              "y": 273,
+                                              "h": 23,
+                                              "w": 23
+                                            },
+                                            {
+                                              "x": 179,
+                                              "y": 291,
+                                              "h": 33,
+                                              "w": 33
+                                            },
+                                            {
+                                              "x": 264,
+                                              "y": 155,
+                                              "h": 72,
+                                              "w": 72
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 340,
+                                              "y": 412,
+                                              "h": 36,
+                                              "w": 36
+                                            },
+                                            {
+                                              "x": 271,
+                                              "y": 439,
+                                              "h": 50,
+                                              "w": 50
+                                            },
+                                            {
+                                              "x": 398,
+                                              "y": 234,
+                                              "h": 109,
+                                              "w": 109
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 1001,
+                                          "w": 1024,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 1001,
+                                          "w": 1024,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 665,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 1001,
+                                        "width": 1024,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 200,
+                                            "w": 1024,
+                                            "h": 573
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1001,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 878,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 133,
+                                            "y": 0,
+                                            "w": 501,
+                                            "h": 1001
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 1024,
+                                            "h": 1001
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "display_url": "pic.twitter.com/cN9Hi6RCFz",
+                                      "expanded_url": "https://twitter.com/runews/status/1630276764462112774/photo/1",
+                                      "id_str": "1630276130254077955",
+                                      "indices": [278, 301],
+                                      "media_key": "3_1630276130254077955",
+                                      "media_url_https": "https://pbs.twimg.com/media/Fp_ngL2XwAMwJwI.jpg",
+                                      "type": "photo",
+                                      "url": "https://t.co/cN9Hi6RCFz",
+                                      "ext_media_color": {
+                                        "palette": [
+                                          {
+                                            "percentage": 25.23,
+                                            "rgb": {
+                                              "blue": 37,
+                                              "green": 31,
+                                              "red": 27
+                                            }
+                                          },
+                                          {
+                                            "percentage": 12.57,
+                                            "rgb": {
+                                              "blue": 61,
+                                              "green": 189,
+                                              "red": 219
+                                            }
+                                          },
+                                          {
+                                            "percentage": 12.09,
+                                            "rgb": {
+                                              "blue": 224,
+                                              "green": 175,
+                                              "red": 77
+                                            }
+                                          },
+                                          {
+                                            "percentage": 11.05,
+                                            "rgb": {
+                                              "blue": 162,
+                                              "green": 160,
+                                              "red": 166
+                                            }
+                                          },
+                                          {
+                                            "percentage": 6.8,
+                                            "rgb": {
+                                              "blue": 82,
+                                              "green": 172,
+                                              "red": 173
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "ext_media_availability": {
+                                        "status": "Available"
+                                      },
+                                      "features": {
+                                        "large": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        },
+                                        "medium": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        },
+                                        "small": {
+                                          "faces": [
+                                            {
+                                              "x": 266,
+                                              "y": 96,
+                                              "h": 58,
+                                              "w": 58
+                                            },
+                                            {
+                                              "x": 371,
+                                              "y": 36,
+                                              "h": 66,
+                                              "w": 66
+                                            },
+                                            {
+                                              "x": 507,
+                                              "y": 48,
+                                              "h": 60,
+                                              "w": 60
+                                            }
+                                          ]
+                                        },
+                                        "orig": {
+                                          "faces": [
+                                            {
+                                              "x": 277,
+                                              "y": 100,
+                                              "h": 61,
+                                              "w": 61
+                                            },
+                                            {
+                                              "x": 387,
+                                              "y": 38,
+                                              "h": 69,
+                                              "w": 69
+                                            },
+                                            {
+                                              "x": 528,
+                                              "y": 50,
+                                              "h": 63,
+                                              "w": 63
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "sizes": {
+                                        "large": {
+                                          "h": 398,
+                                          "w": 708,
+                                          "resize": "fit"
+                                        },
+                                        "medium": {
+                                          "h": 398,
+                                          "w": 708,
+                                          "resize": "fit"
+                                        },
+                                        "small": {
+                                          "h": 382,
+                                          "w": 680,
+                                          "resize": "fit"
+                                        },
+                                        "thumb": {
+                                          "h": 150,
+                                          "w": 150,
+                                          "resize": "crop"
+                                        }
+                                      },
+                                      "original_info": {
+                                        "height": 398,
+                                        "width": 708,
+                                        "focus_rects": [
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 708,
+                                            "h": 396
+                                          },
+                                          {
+                                            "x": 310,
+                                            "y": 0,
+                                            "w": 398,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 359,
+                                            "y": 0,
+                                            "w": 349,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 484,
+                                            "y": 0,
+                                            "w": 199,
+                                            "h": 398
+                                          },
+                                          {
+                                            "x": 0,
+                                            "y": 0,
+                                            "w": 708,
+                                            "h": 398
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "favorite_count": 226,
+                                "favorited": false,
+                                "full_text": "Disturbing new trend in Europe as Europeans kicked out of their homes to make way for refugees.\n\nIn Switzerland, locals have to leave home to honor government promises. Switzerland's excessive focus on appeasing refugees has caused to neglect duty of safeguarding own citizens. https://t.co/cN9Hi6RCFz",
+                                "is_quote_status": false,
+                                "lang": "en",
+                                "possibly_sensitive": false,
+                                "possibly_sensitive_editable": true,
+                                "quote_count": 6,
+                                "reply_count": 76,
+                                "retweet_count": 62,
+                                "retweeted": false,
+                                "user_id_str": "243318995",
+                                "id_str": "1630276764462112774"
+                              }
+                            }
+                          },
+                          "legacy": {
+                            "created_at": "Wed Mar 01 09:51:47 +0000 2023",
+                            "conversation_id_str": "1630868427882594304",
+                            "display_text_range": [0, 280],
+                            "entities": {
+                              "media": [
+                                {
+                                  "display_url": "pic.twitter.com/IZ24nmjwj2",
+                                  "expanded_url": "https://twitter.com/runews/status/1630868427882594304/photo/1",
+                                  "id_str": "1630868420924264448",
+                                  "indices": [281, 304],
+                                  "media_url_https": "https://pbs.twimg.com/media/FqICMCiX0AA3q-W.jpg",
+                                  "type": "photo",
+                                  "url": "https://t.co/IZ24nmjwj2",
+                                  "features": {
+                                    "large": {
+                                      "faces": []
+                                    },
+                                    "medium": {
+                                      "faces": []
+                                    },
+                                    "small": {
+                                      "faces": []
+                                    },
+                                    "orig": {
+                                      "faces": []
+                                    }
+                                  },
+                                  "sizes": {
+                                    "large": {
+                                      "h": 741,
+                                      "w": 1124,
+                                      "resize": "fit"
+                                    },
+                                    "medium": {
+                                      "h": 741,
+                                      "w": 1124,
+                                      "resize": "fit"
+                                    },
+                                    "small": {
+                                      "h": 448,
+                                      "w": 680,
+                                      "resize": "fit"
+                                    },
+                                    "thumb": {
+                                      "h": 150,
+                                      "w": 150,
+                                      "resize": "crop"
+                                    }
+                                  },
+                                  "original_info": {
+                                    "height": 741,
+                                    "width": 1124,
+                                    "focus_rects": [
+                                      {
+                                        "x": 0,
+                                        "y": 107,
+                                        "w": 1124,
+                                        "h": 629
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 741,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 650,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 67,
+                                        "y": 0,
+                                        "w": 371,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 1124,
+                                        "h": 741
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "user_mentions": [],
+                              "urls": [],
+                              "hashtags": [],
+                              "symbols": []
+                            },
+                            "extended_entities": {
+                              "media": [
+                                {
+                                  "display_url": "pic.twitter.com/IZ24nmjwj2",
+                                  "expanded_url": "https://twitter.com/runews/status/1630868427882594304/photo/1",
+                                  "id_str": "1630868420924264448",
+                                  "indices": [281, 304],
+                                  "media_key": "3_1630868420924264448",
+                                  "media_url_https": "https://pbs.twimg.com/media/FqICMCiX0AA3q-W.jpg",
+                                  "type": "photo",
+                                  "url": "https://t.co/IZ24nmjwj2",
+                                  "ext_media_color": {
+                                    "palette": [
+                                      {
+                                        "percentage": 86.94,
+                                        "rgb": {
+                                          "blue": 248,
+                                          "green": 239,
+                                          "red": 230
+                                        }
+                                      },
+                                      {
+                                        "percentage": 11.57,
+                                        "rgb": {
+                                          "blue": 141,
+                                          "green": 84,
+                                          "red": 49
+                                        }
+                                      },
+                                      {
+                                        "percentage": 1.49,
+                                        "rgb": {
+                                          "blue": 184,
+                                          "green": 148,
+                                          "red": 128
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "ext_media_availability": {
+                                    "status": "Available"
+                                  },
+                                  "features": {
+                                    "large": {
+                                      "faces": []
+                                    },
+                                    "medium": {
+                                      "faces": []
+                                    },
+                                    "small": {
+                                      "faces": []
+                                    },
+                                    "orig": {
+                                      "faces": []
+                                    }
+                                  },
+                                  "sizes": {
+                                    "large": {
+                                      "h": 741,
+                                      "w": 1124,
+                                      "resize": "fit"
+                                    },
+                                    "medium": {
+                                      "h": 741,
+                                      "w": 1124,
+                                      "resize": "fit"
+                                    },
+                                    "small": {
+                                      "h": 448,
+                                      "w": 680,
+                                      "resize": "fit"
+                                    },
+                                    "thumb": {
+                                      "h": 150,
+                                      "w": 150,
+                                      "resize": "crop"
+                                    }
+                                  },
+                                  "original_info": {
+                                    "height": 741,
+                                    "width": 1124,
+                                    "focus_rects": [
+                                      {
+                                        "x": 0,
+                                        "y": 107,
+                                        "w": 1124,
+                                        "h": 629
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 741,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 650,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 67,
+                                        "y": 0,
+                                        "w": 371,
+                                        "h": 741
+                                      },
+                                      {
+                                        "x": 0,
+                                        "y": 0,
+                                        "w": 1124,
+                                        "h": 741
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            },
+                            "favorite_count": 29,
+                            "favorited": false,
+                            "full_text": "A new trend has emerged in Swiss media where there are questions being raised about the disproportionately high level of support being given to Ukrainians in Switzerland. \n\n🇨🇭While the Swiss media generally relies on copying and pasting German articles provided by agencies, when… https://t.co/IZ24nmjwj2",
+                            "is_quote_status": true,
+                            "lang": "en",
+                            "possibly_sensitive": false,
+                            "possibly_sensitive_editable": true,
+                            "quote_count": 1,
+                            "quoted_status_id_str": "1630276764462112774",
+                            "quoted_status_permalink": {
+                              "url": "https://t.co/OQeMDSaMyy",
+                              "expanded": "https://twitter.com/runews/status/1630276764462112774",
+                              "display": "twitter.com/runews/status/…"
+                            },
+                            "reply_count": 4,
+                            "retweet_count": 4,
+                            "retweeted": false,
+                            "user_id_str": "243318995",
+                            "id_str": "1630868427882594304"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "entryId": "tweet-1623432384338178048",
+                  "sortIndex": "1623432384338178048",
+                  "content": {
+                    "entryType": "TimelineTimelineItem",
+                    "__typename": "TimelineTimelineItem",
+                    "itemContent": {
+                      "itemType": "TimelineTweet",
+                      "__typename": "TimelineTweet",
+                      "tweet_results": {
+                        "result": {
+                          "__typename": "Tweet",
+                          "rest_id": "1630628948853022720",
+                          "core": {
+                            "user_results": {
+                              "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxMDY1NjA4NjgyNDEzNzAzMTY4",
+                                "rest_id": "1065608682413703168",
+                                "affiliates_highlighted_label": {},
+                                "has_nft_avatar": false,
+                                "is_blue_verified": false,
+                                "legacy": {
+                                  "created_at": "Thu Nov 22 14:11:22 +0000 2018",
+                                  "default_profile": true,
+                                  "default_profile_image": false,
+                                  "description": "Making DeFi yet more efficient and secure",
+                                  "entities": {
+                                    "description": {
+                                      "urls": []
+                                    },
+                                    "url": {
+                                      "urls": [
+                                        {
+                                          "display_url": "mixbytes.io",
+                                          "expanded_url": "https://mixbytes.io/",
+                                          "url": "https://t.co/N2fFD8HhlO",
+                                          "indices": [0, 23]
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "fast_followers_count": 0,
+                                  "favourites_count": 226,
+                                  "followers_count": 1806,
+                                  "friends_count": 420,
+                                  "has_custom_timelines": true,
+                                  "is_translator": false,
+                                  "listed_count": 44,
+                                  "location": "",
+                                  "media_count": 66,
+                                  "name": "MixBytes",
+                                  "normal_followers_count": 1806,
+                                  "pinned_tweet_ids_str": [
+                                    "1618277595677884419"
+                                  ],
+                                  "possibly_sensitive": false,
+                                  "profile_banner_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 84.45,
+                                              "rgb": {
+                                                "blue": 36,
+                                                "green": 35,
+                                                "red": 29
+                                              }
+                                            },
+                                            {
+                                              "percentage": 12.68,
+                                              "rgb": {
+                                                "blue": 75,
+                                                "green": 97,
+                                                "red": 48
+                                              }
+                                            },
+                                            {
+                                              "percentage": 1.56,
+                                              "rgb": {
+                                                "blue": 134,
+                                                "green": 178,
+                                                "red": 88
+                                              }
+                                            },
+                                            {
+                                              "percentage": 1.05,
+                                              "rgb": {
+                                                "blue": 108,
+                                                "green": 116,
+                                                "red": 100
+                                              }
+                                            },
+                                            {
+                                              "percentage": 0.25,
+                                              "rgb": {
+                                                "blue": 52,
+                                                "green": 67,
+                                                "red": 35
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1065608682413703168/1669295930",
+                                  "profile_image_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 73.47,
+                                              "rgb": {
+                                                "blue": 34,
+                                                "green": 30,
+                                                "red": 29
+                                              }
+                                            },
+                                            {
+                                              "percentage": 14.11,
+                                              "rgb": {
+                                                "blue": 255,
+                                                "green": 255,
+                                                "red": 255
+                                              }
+                                            },
+                                            {
+                                              "percentage": 10.81,
+                                              "rgb": {
+                                                "blue": 120,
+                                                "green": 183,
+                                                "red": 67
+                                              }
+                                            },
+                                            {
+                                              "percentage": 1.06,
+                                              "rgb": {
+                                                "blue": 66,
+                                                "green": 90,
+                                                "red": 42
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1595068403051528193/kcKkUTu9_normal.jpg",
+                                  "profile_interstitial_type": "",
+                                  "protected": false,
+                                  "screen_name": "MixBytes",
+                                  "statuses_count": 462,
+                                  "translator_type": "none",
+                                  "url": "https://t.co/N2fFD8HhlO",
+                                  "verified": false,
+                                  "withheld_in_countries": []
+                                },
+                                "super_follow_eligible": false,
+                                "super_followed_by": false,
+                                "super_following": false
+                              }
+                            }
+                          },
+                          "card": {
+                            "rest_id": "https://t.co/HGhrOxEGRZ",
+                            "legacy": {
+                              "binding_values": [
+                                {
+                                  "key": "description",
+                                  "value": {
+                                    "string_value": "Get-an-estimate",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "domain",
+                                  "value": {
+                                    "string_value": "mixbytes.io",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "vanity_url",
+                                  "value": {
+                                    "scribe_key": "vanity_url",
+                                    "string_value": "mixbytes.io",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "title",
+                                  "value": {
+                                    "string_value": "Audit Application Form MixBytes",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "card_url",
+                                  "value": {
+                                    "scribe_key": "card_url",
+                                    "string_value": "https://t.co/HGhrOxEGRZ",
+                                    "type": "STRING"
+                                  }
+                                }
+                              ],
+                              "card_platform": {
+                                "platform": {
+                                  "audience": {
+                                    "name": "production"
+                                  },
+                                  "device": {
+                                    "name": "Swift",
+                                    "version": "12"
+                                  }
+                                }
+                              },
+                              "name": "summary",
+                              "url": "https://t.co/HGhrOxEGRZ",
+                              "user_refs_results": []
+                            }
+                          },
+                          "unmention_data": {},
+                          "unified_card": {
+                            "card_fetch_state": "NoCard"
+                          },
+                          "edit_control": {
+                            "edit_tweet_ids": ["1630628948853022720"],
+                            "editable_until_msecs": "1677609011000",
+                            "is_edit_eligible": false,
+                            "edits_remaining": "5"
+                          },
+                          "views": {
+                            "count": "102",
+                            "state": "EnabledWithCount"
+                          },
+                          "source": "<a href=\"https://typefully.com/\" rel=\"nofollow\">Typefully</a>",
+                          "legacy": {
+                            "created_at": "Tue Feb 28 18:00:11 +0000 2023",
+                            "conversation_id_str": "1630628927105277954",
+                            "display_text_range": [0, 227],
+                            "entities": {
+                              "user_mentions": [],
+                              "urls": [
+                                {
+                                  "display_url": "mixbytes.io/audit-applicat…",
+                                  "expanded_url": "https://mixbytes.io/audit-application-form",
+                                  "url": "https://t.co/HGhrOxEGRZ",
+                                  "indices": [149, 172]
+                                }
+                              ],
+                              "hashtags": [
+                                {
+                                  "indices": [67, 72],
+                                  "text": "code"
+                                },
+                                {
+                                  "indices": [188, 197],
+                                  "text": "security"
+                                }
+                              ],
+                              "symbols": []
+                            },
+                            "favorite_count": 3,
+                            "favorited": false,
+                            "full_text": "8/\nWe at MixBytes believe that preventive measures and responsible #code management are crucial for a healthy blockchain industry.\n\nGet a quote here https://t.co/HGhrOxEGRZ\n\nAnd remember, #security is everyone's responsibility.",
+                            "in_reply_to_screen_name": "MixBytes",
+                            "in_reply_to_status_id_str": "1630628946302877698",
+                            "in_reply_to_user_id_str": "1065608682413703168",
+                            "is_quote_status": false,
+                            "lang": "en",
+                            "possibly_sensitive": false,
+                            "possibly_sensitive_editable": true,
+                            "quote_count": 0,
+                            "reply_count": 0,
+                            "retweet_count": 0,
+                            "retweeted": false,
+                            "user_id_str": "1065608682413703168",
+                            "id_str": "1630628948853022720",
+                            "self_thread": {
+                              "id_str": "1630628927105277954"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "entryId": "tweet-1623432384338178048",
+                  "sortIndex": "1623432384338178048",
+                  "content": {
+                    "entryType": "TimelineTimelineItem",
+                    "__typename": "TimelineTimelineItem",
+                    "itemContent": {
+                      "itemType": "TimelineTweet",
+                      "__typename": "TimelineTweet",
+                      "tweet_results": {
+                        "result": {
+                          "__typename": "Tweet",
                           "rest_id": "1630285176449187841",
                           "core": {
                             "user_results": {
