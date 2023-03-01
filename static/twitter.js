@@ -4,7 +4,7 @@ export default {
 		let test = query.has('test');
 
 		let url = test
-			? './static/data/data.json'
+			? './static/data/test.json'
 			: `http://aristotle.1gb.ru/app.php?${new URLSearchParams(JSON.parse(JSON.stringify({
 				list,
 				cursor,
