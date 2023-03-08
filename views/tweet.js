@@ -2,6 +2,7 @@ import moment from 'https://cdn.jsdelivr.net/npm/moment@2.29.4/+esm';
 
 import store from '../static/store.js';
 
+const WIDTH = Math.min(window.innerWidth - 2 * 8, 598);
 const a = (href, content) => `<a href="${href}" target="_blank">${content}</a>`;
 
 export default {
@@ -96,7 +97,7 @@ export default {
 </div>
 <div v-if="card && !poll.length" class="card-body">
 	<h6 class="card-title">
-		<a :class="muted(card.rest_id) ? 'text-body' : 'text-light'" :href="card.card_url" target="_blank">{{ card.title }}</a>
+		<a :class="muted(card.rest_id) ? 'text-body' : 'text-light'" :href="card.card_url" target="_blank">{{ card.title || card.card_url }}</a>
 	</h6>
 	<p class="card-text mb-1" :class="{ 'text-muted': muted(card.rest_id) }">{{ card.description }}</p>
 	<p class="card-text"><small class="text-muted">{{ card.vanity_url }}</small></p>
@@ -227,11 +228,11 @@ export default {
 		},
 		height(size) {
 			return size && size.height && size.width
-				? size.height / size.width * (Math.min(window.innerWidth, 598) - 2 * 8)
+				? size.height / size.width * Math.min(window.innerWidth - 2 * 8, WIDTH)
 				: 0;
 		},
 		maxHeight() {
-			return this.media ? Math.max(...this.media.map(photo => photo.original_info).map(this.height)) : 0;
+			return this.media ? Math.min(WIDTH, Math.max(...this.media.map(photo => photo.original_info).map(this.height))) : 0;
 		},
 		number(number) {
 			return number > 1000000

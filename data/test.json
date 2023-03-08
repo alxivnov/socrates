@@ -19,6 +19,526 @@
                       "tweet_results": {
                         "result": {
                           "__typename": "Tweet",
+                          "rest_id": "1631664708167114753",
+                          "core": {
+                            "user_results": {
+                              "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxMTUxOTc3MTMwMzMyNDM0NDMz",
+                                "rest_id": "1151977130332434433",
+                                "affiliates_highlighted_label": {},
+                                "has_nft_avatar": false,
+                                "is_blue_verified": false,
+                                "legacy": {
+                                  "created_at": "Thu Jul 18 22:08:45 +0000 2019",
+                                  "default_profile": true,
+                                  "default_profile_image": false,
+                                  "description": "",
+                                  "entities": {
+                                    "description": {
+                                      "urls": []
+                                    },
+                                    "url": {
+                                      "urls": [
+                                        {
+                                          "display_url": "nil.foundation",
+                                          "expanded_url": "https://nil.foundation",
+                                          "url": "https://t.co/1OIZDwcBLo",
+                                          "indices": [0, 23]
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "fast_followers_count": 0,
+                                  "favourites_count": 5,
+                                  "followers_count": 6528,
+                                  "friends_count": 0,
+                                  "has_custom_timelines": false,
+                                  "is_translator": false,
+                                  "listed_count": 117,
+                                  "location": "",
+                                  "media_count": 12,
+                                  "name": "=nil; Foundation",
+                                  "normal_followers_count": 6528,
+                                  "pinned_tweet_ids_str": [
+                                    "1621257678830899200"
+                                  ],
+                                  "possibly_sensitive": false,
+                                  "profile_banner_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 96.35,
+                                              "rgb": {
+                                                "blue": 34,
+                                                "green": 34,
+                                                "red": 34
+                                              }
+                                            },
+                                            {
+                                              "percentage": 3.11,
+                                              "rgb": {
+                                                "blue": 210,
+                                                "green": 210,
+                                                "red": 210
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1151977130332434433/1581956631",
+                                  "profile_image_extensions": {
+                                    "mediaColor": {
+                                      "r": {
+                                        "ok": {
+                                          "palette": [
+                                            {
+                                              "percentage": 95.19,
+                                              "rgb": {
+                                                "blue": 34,
+                                                "green": 34,
+                                                "red": 34
+                                              }
+                                            },
+                                            {
+                                              "percentage": 4.52,
+                                              "rgb": {
+                                                "blue": 232,
+                                                "green": 232,
+                                                "red": 232
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1225296228876877826/l6ycXdRR_normal.jpg",
+                                  "profile_interstitial_type": "",
+                                  "protected": false,
+                                  "screen_name": "nil_foundation",
+                                  "statuses_count": 70,
+                                  "translator_type": "none",
+                                  "url": "https://t.co/1OIZDwcBLo",
+                                  "verified": false,
+                                  "withheld_in_countries": []
+                                },
+                                "professional": {
+                                  "rest_id": "1616039997353721857",
+                                  "professional_type": "Business",
+                                  "category": [
+                                    {
+                                      "id": 713,
+                                      "name": "Наука и технологии",
+                                      "icon_name": "IconBriefcaseStroke"
+                                    }
+                                  ]
+                                },
+                                "super_follow_eligible": false,
+                                "super_followed_by": false,
+                                "super_following": false
+                              }
+                            }
+                          },
+                          "card": {
+                            "rest_id": "https://t.co/RHU9zgIqIZ",
+                            "legacy": {
+                              "binding_values": [
+                                {
+                                  "key": "tweet_id",
+                                  "value": {
+                                    "string_value": "1631700974317494272",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "narrow_cast_space_type",
+                                  "value": {
+                                    "string_value": "0",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "id",
+                                  "value": {
+                                    "string_value": "1YqJDoANeWDGV",
+                                    "type": "STRING"
+                                  }
+                                },
+                                {
+                                  "key": "card_url",
+                                  "value": {
+                                    "scribe_key": "card_url",
+                                    "string_value": "https://t.co/RHU9zgIqIZ",
+                                    "type": "STRING"
+                                  }
+                                }
+                              ],
+                              "card_platform": {
+                                "platform": {
+                                  "audience": {
+                                    "name": "production"
+                                  },
+                                  "device": {
+                                    "name": "Swift",
+                                    "version": "12"
+                                  }
+                                }
+                              },
+                              "name": "3691233323:audiospace",
+                              "url": "https://t.co/RHU9zgIqIZ",
+                              "user_refs_results": []
+                            }
+                          },
+                          "unmention_data": {},
+                          "unified_card": {
+                            "card_fetch_state": "NoCard"
+                          },
+                          "edit_control": {
+                            "edit_tweet_ids": ["1631664708167114753"],
+                            "editable_until_msecs": "1677855955948",
+                            "is_edit_eligible": false,
+                            "edits_remaining": "5"
+                          },
+                          "views": {
+                            "state": "Enabled"
+                          },
+                          "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                          "legacy": {
+                            "created_at": "Fri Mar 03 14:35:55 +0000 2023",
+                            "conversation_id_str": "1631664708167114753",
+                            "display_text_range": [0, 128],
+                            "entities": {
+                              "user_mentions": [
+                                {
+                                  "id_str": "991439317053591552",
+                                  "name": "Mina Protocol @ ETHDenver 🪶",
+                                  "screen_name": "MinaProtocol",
+                                  "indices": [3, 16]
+                                },
+                                {
+                                  "id_str": "1151977130332434433",
+                                  "name": "=nil; Foundation",
+                                  "screen_name": "nil_foundation",
+                                  "indices": [88, 103]
+                                }
+                              ],
+                              "urls": [
+                                {
+                                  "display_url": "twitter.com/i/spaces/1YqJD…",
+                                  "expanded_url": "https://twitter.com/i/spaces/1YqJDoANeWDGV?s=20",
+                                  "url": "https://t.co/RHU9zgIqIZ",
+                                  "indices": [105, 128]
+                                }
+                              ],
+                              "hashtags": [],
+                              "symbols": []
+                            },
+                            "favorite_count": 0,
+                            "favorited": false,
+                            "full_text": "RT @MinaProtocol: Last chance to set your reminders for the upcoming Twitter Space with @nil_foundation!\nhttps://t.co/RHU9zgIqIZ",
+                            "is_quote_status": false,
+                            "lang": "en",
+                            "possibly_sensitive": false,
+                            "possibly_sensitive_editable": true,
+                            "quote_count": 0,
+                            "reply_count": 0,
+                            "retweet_count": 25,
+                            "retweeted": false,
+                            "user_id_str": "1151977130332434433",
+                            "id_str": "1631664708167114753",
+                            "retweeted_status_result": {
+                              "result": {
+                                "__typename": "Tweet",
+                                "rest_id": "1631614142678462466",
+                                "core": {
+                                  "user_results": {
+                                    "result": {
+                                      "__typename": "User",
+                                      "id": "VXNlcjo5OTE0MzkzMTcwNTM1OTE1NTI=",
+                                      "rest_id": "991439317053591552",
+                                      "affiliates_highlighted_label": {},
+                                      "has_nft_avatar": false,
+                                      "is_blue_verified": false,
+                                      "legacy": {
+                                        "created_at": "Tue May 01 22:08:48 +0000 2018",
+                                        "default_profile": false,
+                                        "default_profile_image": false,
+                                        "description": "Bringing access & privacy to Web3 with zero knowledge tech. Mina is the world’s lightest blockchain, #PoweredByParticipants. 🌏 100+ Countries. 💪 Join us.",
+                                        "entities": {
+                                          "description": {
+                                            "urls": []
+                                          },
+                                          "url": {
+                                            "urls": [
+                                              {
+                                                "display_url": "minaprotocol.com",
+                                                "expanded_url": "http://minaprotocol.com",
+                                                "url": "https://t.co/2ZSpxivGhd",
+                                                "indices": [0, 23]
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "fast_followers_count": 0,
+                                        "favourites_count": 4789,
+                                        "followers_count": 204827,
+                                        "friends_count": 22,
+                                        "has_custom_timelines": true,
+                                        "is_translator": false,
+                                        "listed_count": 1573,
+                                        "location": "Worldwide",
+                                        "media_count": 519,
+                                        "name": "Mina Protocol 🪶",
+                                        "normal_followers_count": 204827,
+                                        "pinned_tweet_ids_str": [
+                                          "1625812166690639872"
+                                        ],
+                                        "possibly_sensitive": false,
+                                        "profile_banner_extensions": {
+                                          "mediaColor": {
+                                            "r": {
+                                              "ok": {
+                                                "palette": [
+                                                  {
+                                                    "percentage": 73.09,
+                                                    "rgb": {
+                                                      "blue": 237,
+                                                      "green": 213,
+                                                      "red": 213
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 15.57,
+                                                    "rgb": {
+                                                      "blue": 176,
+                                                      "green": 186,
+                                                      "red": 222
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 8.52,
+                                                    "rgb": {
+                                                      "blue": 234,
+                                                      "green": 181,
+                                                      "red": 179
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 2.36,
+                                                    "rgb": {
+                                                      "blue": 206,
+                                                      "green": 171,
+                                                      "red": 205
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 0.31,
+                                                    "rgb": {
+                                                      "blue": 225,
+                                                      "green": 162,
+                                                      "red": 189
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/991439317053591552/1678171717",
+                                        "profile_image_extensions": {
+                                          "mediaColor": {
+                                            "r": {
+                                              "ok": {
+                                                "palette": [
+                                                  {
+                                                    "percentage": 24.21,
+                                                    "rgb": {
+                                                      "blue": 236,
+                                                      "green": 116,
+                                                      "red": 140
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 17.72,
+                                                    "rgb": {
+                                                      "blue": 197,
+                                                      "green": 204,
+                                                      "red": 209
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 15.64,
+                                                    "rgb": {
+                                                      "blue": 74,
+                                                      "green": 115,
+                                                      "red": 219
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 11.91,
+                                                    "rgb": {
+                                                      "blue": 208,
+                                                      "green": 145,
+                                                      "red": 173
+                                                    }
+                                                  },
+                                                  {
+                                                    "percentage": 9.22,
+                                                    "rgb": {
+                                                      "blue": 131,
+                                                      "green": 141,
+                                                      "red": 208
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1310958947357077504/JM4_vQ34_normal.png",
+                                        "profile_interstitial_type": "",
+                                        "protected": false,
+                                        "screen_name": "MinaProtocol",
+                                        "statuses_count": 2199,
+                                        "translator_type": "none",
+                                        "url": "https://t.co/2ZSpxivGhd",
+                                        "verified": true,
+                                        "withheld_in_countries": []
+                                      },
+                                      "super_follow_eligible": false,
+                                      "super_followed_by": false,
+                                      "super_following": false
+                                    }
+                                  }
+                                },
+                                "card": {
+                                  "rest_id": "https://t.co/RHU9zgIqIZ",
+                                  "legacy": {
+                                    "binding_values": [
+                                      {
+                                        "key": "tweet_id",
+                                        "value": {
+                                          "string_value": "1631700974317494272",
+                                          "type": "STRING"
+                                        }
+                                      },
+                                      {
+                                        "key": "narrow_cast_space_type",
+                                        "value": {
+                                          "string_value": "0",
+                                          "type": "STRING"
+                                        }
+                                      },
+                                      {
+                                        "key": "id",
+                                        "value": {
+                                          "string_value": "1YqJDoANeWDGV",
+                                          "type": "STRING"
+                                        }
+                                      },
+                                      {
+                                        "key": "card_url",
+                                        "value": {
+                                          "scribe_key": "card_url",
+                                          "string_value": "https://t.co/RHU9zgIqIZ",
+                                          "type": "STRING"
+                                        }
+                                      }
+                                    ],
+                                    "card_platform": {
+                                      "platform": {
+                                        "audience": {
+                                          "name": "production"
+                                        },
+                                        "device": {
+                                          "name": "Swift",
+                                          "version": "12"
+                                        }
+                                      }
+                                    },
+                                    "name": "3691233323:audiospace",
+                                    "url": "https://t.co/RHU9zgIqIZ",
+                                    "user_refs_results": []
+                                  }
+                                },
+                                "unmention_data": {},
+                                "unified_card": {
+                                  "card_fetch_state": "NoCard"
+                                },
+                                "edit_control": {
+                                  "edit_tweet_ids": ["1631614142678462466"],
+                                  "editable_until_msecs": "1677843900000",
+                                  "is_edit_eligible": true,
+                                  "edits_remaining": "5"
+                                },
+                                "views": {
+                                  "count": "14943",
+                                  "state": "EnabledWithCount"
+                                },
+                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                "legacy": {
+                                  "created_at": "Fri Mar 03 11:15:00 +0000 2023",
+                                  "conversation_id_str": "1631614142678462466",
+                                  "display_text_range": [0, 110],
+                                  "entities": {
+                                    "user_mentions": [
+                                      {
+                                        "id_str": "1151977130332434433",
+                                        "name": "=nil; Foundation",
+                                        "screen_name": "nil_foundation",
+                                        "indices": [70, 85]
+                                      }
+                                    ],
+                                    "urls": [
+                                      {
+                                        "display_url": "twitter.com/i/spaces/1YqJD…",
+                                        "expanded_url": "https://twitter.com/i/spaces/1YqJDoANeWDGV?s=20",
+                                        "url": "https://t.co/RHU9zgIqIZ",
+                                        "indices": [87, 110]
+                                      }
+                                    ],
+                                    "hashtags": [],
+                                    "symbols": []
+                                  },
+                                  "favorite_count": 135,
+                                  "favorited": false,
+                                  "full_text": "Last chance to set your reminders for the upcoming Twitter Space with @nil_foundation!\nhttps://t.co/RHU9zgIqIZ",
+                                  "is_quote_status": false,
+                                  "lang": "en",
+                                  "possibly_sensitive": false,
+                                  "possibly_sensitive_editable": true,
+                                  "quote_count": 3,
+                                  "reply_count": 2,
+                                  "retweet_count": 25,
+                                  "retweeted": false,
+                                  "user_id_str": "991439317053591552",
+                                  "id_str": "1631614142678462466"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "entryId": "tweet-1623432384338178048",
+                  "sortIndex": "1623432384338178048",
+                  "content": {
+                    "entryType": "TimelineTimelineItem",
+                    "__typename": "TimelineTimelineItem",
+                    "itemContent": {
+                      "itemType": "TimelineTweet",
+                      "__typename": "TimelineTweet",
+                      "tweet_results": {
+                        "result": {
+                          "__typename": "Tweet",
                           "rest_id": "1630868427882594304",
                           "core": {
                             "user_results": {
