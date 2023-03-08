@@ -2,7 +2,7 @@ import moment from 'https://cdn.jsdelivr.net/npm/moment@2.29.4/+esm';
 
 import store from '../static/store.js';
 
-const WIDTH = Math.min(window.innerWidth - 2 * 8, 598);
+const WIDTH = Math.min(window.innerWidth - 24, 598);
 const a = (href, content) => `<a href="${href}" target="_blank">${content}</a>`;
 
 export default {
